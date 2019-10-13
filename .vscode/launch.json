@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProblemaSerie",
+            "request": "launch",
+            "mainClass": "custom.ProblemaSerie",
+            "projectName": "semaforo-java_e11527b3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Problemas",
+            "request": "launch",
+            "mainClass": "custom.Problemas"
+        }
+    ]
+}

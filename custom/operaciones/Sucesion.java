@@ -23,7 +23,7 @@ public class Sucesion extends Thread {
         System.out.println("\nHilo productor ID: "+Thread.currentThread().getId());
         try {
             System.out.println("\n["+Thread.currentThread().getId()+"]"+" Colocando elementos...");
-            while(i < 15){
+            while(i < 20){
                 sem1.WAIT();
                 contenedor.poner(a0 + a1);
                 System.out.println(contenedor.toString());
