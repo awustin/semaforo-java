@@ -24,13 +24,17 @@ public class ProblemaSerie {
         
 
         //Declarar e inicializar variables
-        int kHilos = 4;
+        int kHilos = 2;
         ArrayList<HilosProblemaSerie> hilosCreados = new ArrayList<HilosProblemaSerie>();
         ArrayList<Integer> vector = new ArrayList<Integer>();
         vector.add(10);
         vector.add(20);
         vector.add(30);
         vector.add(40);
+        vector.add(-50);
+        vector.add(12);
+        vector.add(-34);
+        vector.add(16);
         SemaforoBinario agregar = new SemaforoBinario(1);
         BufferVector serie = new BufferVector(vector);
 
@@ -45,6 +49,7 @@ public class ProblemaSerie {
 
         //Ejectuar
         System.out.println("\nEjecutando hilos...\n");
+        serie.mostrar();
         for (HilosProblemaSerie hilo : hilosCreados) {
             hilo.start();
         }

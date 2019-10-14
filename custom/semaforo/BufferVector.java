@@ -3,7 +3,7 @@ package custom.semaforo;
 import java.util.ArrayList;
 
 public class BufferVector {
-    //private int[] vector;
+    
     private ArrayList<Integer> vector = new ArrayList<Integer>();
 
     public BufferVector(ArrayList<Integer> vector){        
