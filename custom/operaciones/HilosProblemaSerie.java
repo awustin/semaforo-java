@@ -29,6 +29,7 @@ public class HilosProblemaSerie extends Thread {
                 System.out.printf("\n[ %d ]: ",Thread.currentThread().getId());
                 buffer.mostrar();
                 extraer.SIGNAL(); //ya saqué dos, pase el siguiente    
+                
                 //agregar.WAIT(); //me voy a la cola de espera, porq hay q agregar en orden.
                 
                 //ultimo.SIGNAL();
